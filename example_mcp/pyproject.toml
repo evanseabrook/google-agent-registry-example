@@ -1,0 +1,14 @@
+[project]
+name = "example-mcp"
+version = "0.1.0"
+description = "An example MCP server to deploy to cloud run."
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "cryptography>=48.0.0",
+    "fastapi>=0.136.1",
+    "fastmcp>=3.2.4",
+    "httpx>=0.28.1",
+    "pyjwt>=2.12.1",
+    "uvicorn>=0.46.0",
+]

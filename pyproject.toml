@@ -1,0 +1,14 @@
+[project]
+name = "agent-identity-lab"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "google-adk>=1.33.0",
+]
+
+[tool.uv.workspace]
+members = [
+    "example_agent",
+]

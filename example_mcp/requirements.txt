@@ -1,0 +1,6 @@
+fastmcp
+fastapi
+uvicorn
+PyJWT
+cryptography
+httpx

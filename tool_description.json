@@ -1,0 +1,20 @@
+https://auth0-mcp-server-1075043300078.us-central1.run.app/mcp
+
+{
+  "tools": [
+    {
+      "name": "get_secure_data",
+      "description": "Fetches the latest secure data.",
+      "inputSchema": {
+        "type": "object"
+      },
+      "annotations": {
+        "title": "Get Secure Data",
+        "readOnlyHint": true,
+        "destructiveHint": false,
+        "idempotentHint": true,
+        "openWorldHint": false
+      }
+    }
+  ]
+}
