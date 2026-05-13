@@ -56,7 +56,8 @@ Once the MCP server is deployed to Cloud Run, it can be added to the Agent Regis
 The ADK agent located in the `example_agent` directory can be run locally.
 
 1. Navigate to the top-level `example_agent` directory.
-2. Create a `.env` file prior to running the agent with the following values:
+2. Run `uv sync` to install dependencies.
+3. Create a `.env` file prior to running the agent with the following values:
 
 ```env
 GOOGLE_GENAI_USE_VERTEXAI=1
@@ -66,7 +67,7 @@ TOOL_NAME=projects/<project>/locations/<region>/mcpServers/<your agent connector
 CONNECTOR_NAME=<name of connector you created earlier>
 ```
 
-3. Run the agent using the following command:
+4. Run the agent using the following command:
 
 ```bash
 uv run adk web
