@@ -1,4 +1,4 @@
-# Agent Identity Lab
+# Agent Agent Registry Example
 
 This project is meant to demonstrate how Gemini Enterprise Agent Platform can offload MCP tool discovery to Agent Registry and external tool authentication to Agent Identity.
 
